@@ -37,7 +37,7 @@ export default async function HomePage() {
     <div className="grid gap-section pt-6 sm:pt-10">
       <Hero
         title={home?.title ?? SITE_NAME}
-        text={home?.intro}
+        text="Léonie Coeman"
         image={imageFrom(picture)}
         actions={
           <>
